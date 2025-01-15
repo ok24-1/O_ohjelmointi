@@ -37,7 +37,7 @@ int game(int maxnum){
             userinputCounter++;
         }
         if (userinput == randomNumber){
-            cout << "Lukusi on oikein. Arvaa uusi luku:" << endl;
+            cout << "Lukusi on oikein." << endl;
             break;
         }
     }
