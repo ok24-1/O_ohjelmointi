@@ -5,11 +5,10 @@
 
 using namespace std;
 
-Game::Game(int)
+Game::Game(int n)
 {
-    cout << "PELIN RAKENTAJA: Kysytaan suurin satunnainen numero" << endl;
-    cout << "Syota suurin satunnainen numero:" << endl;
-    cin >> maxNumber;
+    maxNumber = n;
+    cout << "PELIN RAKENTAJA: Aloitetaan peli suurimmalla numerolla "<< n << endl;
     Game::play();
 }
 
